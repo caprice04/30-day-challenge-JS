@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Random guessing Number</title>
+
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="container">
+
+            <h2>Number Between 1 - 100.</h2>
+            <br>
+
+            <h3>Can you Guess it?</h3>
+        
+
+            <input type="text" placeholder="Num" id="guess" /><br/>
+
+            <button onclick="start()" id="btn">Guess</button>
+            
+            <button onclick="resetGame()" id="btn">Reset</button>
+
+            <p id="p1">No. of Guesss : 0</p>
+            <p id="p2">Guessed number are : none</p>
+            <p id="p3"></p>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
