@@ -1,0 +1,36 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    
+    
+}
+
+
+button{
+    background-color: rgb(5, 228, 117);
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    width: 100px; 
+    height: 30px;
+    cursor: pointer;
+    font-family: "poppins",sans-serif;
+    font-weight: 600;
+
+}
+
+#placeholder{
+   height: 100px;
+   width: 100px; 
+   padding: 50px;
+   margin: 50px auto;
+   border: 1px solid gray;
+   border-radius: 10px;
+   font-size: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
