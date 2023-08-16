@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+
+}
+
+#container{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 2%;
+    max-width: 600px;
+
+}
+
+#searchBar{
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px auto;
+    transition: all 0.5s;
+    box-shadow: 0 0 4px 0 #7d90de;
+}
+#box{
+    line-height: 1.7rem;
+    position: absolute;
+
+}
