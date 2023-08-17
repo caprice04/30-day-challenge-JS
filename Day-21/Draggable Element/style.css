@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #323232;
+    
+}
+
+#draggable{
+    position: absolute;
+    font-size: 24px;
+    height: 250px; width: 250px;
+    display: flex;
+    background-color: #262662;
+    color: #ddd;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+   cursor: move;
+   text-transform: uppercase;
+   gap: 1.2;
+}
